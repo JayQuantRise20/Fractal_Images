@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4530506F2338264200795FB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4530506E2338264200795FB1 /* main.cpp */; };
+		4530508F2339787700795FB1 /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4530508D2339787700795FB1 /* Bitmap.cpp */; };
+		45305092233C111E00795FB1 /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45305090233C111E00795FB1 /* Mandelbrot.cpp */; };
+		45305096233D5C5300795FB1 /* ZoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45305094233D5C5300795FB1 /* ZoomList.cpp */; };
+		45305099233F9F4500795FB1 /* FractalCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45305097233F9F4500795FB1 /* FractalCreator.cpp */; };
+		4530509C23413DB000795FB1 /* RGB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4530509A23413DAF00795FB1 /* RGB.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		453050692338264200795FB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4530506B2338264200795FB1 /* Fractal_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fractal_Project; sourceTree = BUILT_PRODUCTS_DIR; };
+		4530506E2338264200795FB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		453050752338267000795FB1 /* BitmapFileHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapFileHeader.h; sourceTree = "<group>"; };
+		4530508C233970B600795FB1 /* BitmapInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapInfoHeader.h; sourceTree = "<group>"; };
+		4530508D2339787700795FB1 /* Bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
+		4530508E2339787700795FB1 /* Bitmap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bitmap.hpp; sourceTree = "<group>"; };
+		45305090233C111E00795FB1 /* Mandelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mandelbrot.cpp; sourceTree = "<group>"; };
+		45305091233C111E00795FB1 /* Mandelbrot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mandelbrot.hpp; sourceTree = "<group>"; };
+		45305093233D56C500795FB1 /* Zoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoom.h; sourceTree = "<group>"; };
+		45305094233D5C5300795FB1 /* ZoomList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZoomList.cpp; sourceTree = "<group>"; };
+		45305095233D5C5300795FB1 /* ZoomList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZoomList.hpp; sourceTree = "<group>"; };
+		45305097233F9F4500795FB1 /* FractalCreator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FractalCreator.cpp; sourceTree = "<group>"; };
+		45305098233F9F4500795FB1 /* FractalCreator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FractalCreator.hpp; sourceTree = "<group>"; };
+		4530509A23413DAF00795FB1 /* RGB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RGB.cpp; sourceTree = "<group>"; };
+		4530509B23413DAF00795FB1 /* RGB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RGB.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453050682338264200795FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453050622338264200795FB1 = {
+			isa = PBXGroup;
+			children = (
+				4530506D2338264200795FB1 /* Fractal_Project */,
+				4530506C2338264200795FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4530506C2338264200795FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4530506B2338264200795FB1 /* Fractal_Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4530506D2338264200795FB1 /* Fractal_Project */ = {
+			isa = PBXGroup;
+			children = (
+				4530506E2338264200795FB1 /* main.cpp */,
+				453050752338267000795FB1 /* BitmapFileHeader.h */,
+				4530508C233970B600795FB1 /* BitmapInfoHeader.h */,
+				4530508D2339787700795FB1 /* Bitmap.cpp */,
+				4530508E2339787700795FB1 /* Bitmap.hpp */,
+				45305090233C111E00795FB1 /* Mandelbrot.cpp */,
+				45305091233C111E00795FB1 /* Mandelbrot.hpp */,
+				45305093233D56C500795FB1 /* Zoom.h */,
+				45305094233D5C5300795FB1 /* ZoomList.cpp */,
+				45305095233D5C5300795FB1 /* ZoomList.hpp */,
+				45305097233F9F4500795FB1 /* FractalCreator.cpp */,
+				45305098233F9F4500795FB1 /* FractalCreator.hpp */,
+				4530509A23413DAF00795FB1 /* RGB.cpp */,
+				4530509B23413DAF00795FB1 /* RGB.hpp */,
+			);
+			path = Fractal_Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4530506A2338264200795FB1 /* Fractal_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453050722338264200795FB1 /* Build configuration list for PBXNativeTarget "Fractal_Project" */;
+			buildPhases = (
+				453050672338264200795FB1 /* Sources */,
+				453050682338264200795FB1 /* Frameworks */,
+				453050692338264200795FB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fractal_Project;
+			productName = Fractal_Project;
+			productReference = 4530506B2338264200795FB1 /* Fractal_Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453050632338264200795FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Javad Gholizadeh";
+				TargetAttributes = {
+					4530506A2338264200795FB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 453050662338264200795FB1 /* Build configuration list for PBXProject "Fractal_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 453050622338264200795FB1;
+			productRefGroup = 4530506C2338264200795FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4530506A2338264200795FB1 /* Fractal_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453050672338264200795FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45305099233F9F4500795FB1 /* FractalCreator.cpp in Sources */,
+				45305092233C111E00795FB1 /* Mandelbrot.cpp in Sources */,
+				4530508F2339787700795FB1 /* Bitmap.cpp in Sources */,
+				4530509C23413DB000795FB1 /* RGB.cpp in Sources */,
+				45305096233D5C5300795FB1 /* ZoomList.cpp in Sources */,
+				4530506F2338264200795FB1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		453050702338264200795FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		453050712338264200795FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		453050732338264200795FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		453050742338264200795FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453050662338264200795FB1 /* Build configuration list for PBXProject "Fractal_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453050702338264200795FB1 /* Debug */,
+				453050712338264200795FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453050722338264200795FB1 /* Build configuration list for PBXNativeTarget "Fractal_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453050732338264200795FB1 /* Debug */,
+				453050742338264200795FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453050632338264200795FB1 /* Project object */;
+}
